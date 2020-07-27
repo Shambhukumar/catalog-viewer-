@@ -88,7 +88,7 @@ const Catalogs = (props) => {
     {
       name: "animation",
       image:
-        "https://andrewhawkes.github.io/codepen-assets/steam-game-cards/game_1.jpg",
+        "https://cdn.pixabay.com/photo/2013/07/13/13/49/demon-161607_960_720.png",
     },
     {
       name: "shuttle",
