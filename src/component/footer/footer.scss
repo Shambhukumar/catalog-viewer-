@@ -1,0 +1,37 @@
+.Footer {
+  background-color: #1f2b3d;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+
+  &__text {
+    font-size: 15px;
+    padding-top: 10px;
+    width: 40%;
+  }
+  &__copyright {
+    padding: 10px 0px;
+  }
+
+  &__link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    list-style: none;
+    font-weight: 700;
+    li {
+      cursor: pointer;
+    }
+    &--link {
+      color: rgb(64, 64, 180);
+    }
+    &--face {
+      color: rgb(12, 130, 240);
+    }
+
+    &--insta {
+      color: rgb(204, 143, 52);
+    }
+  }
+}
